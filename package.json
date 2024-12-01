@@ -1,0 +1,20 @@
+{
+  "name": "week1-quiz-creator",
+  "version": "1.0.0",
+  "description": "Create quiz questions about Week 1 concepts while practicing JavaScript",
+  "main": "questions.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "javascript",
+    "quiz",
+    "learning"
+  ],
+  "author": "School of Code",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
