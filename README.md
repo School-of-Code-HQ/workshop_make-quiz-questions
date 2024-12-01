@@ -2,7 +2,7 @@
 
 ## The Task
 
-Your task is to create quiz questions about what you learned in Week 1 (learning strategies, mindset, growth, etc.) while practicing JavaScript object/array skills.
+Your task is to create quiz questions about what you learned in Week 1 while practicing JavaScript object/array skills.
 
 You'll be creating an array of question objects that follow a specific schema, which will allow your questions to be added to the School of Code quiz database!
 
@@ -30,50 +30,12 @@ Each question should be an object with the following properties:
 4. **correct_option**: This is a number that represents the index of the correct answer in the options array. The index is 0-based, meaning the first option is 0, the second is 1, and so on.
 5. **correct_explanation**: This is a string that explains why the correct answer is correct. This helps learners understand the reasoning behind the answer.
 
-```javascript
-{
-  question_text: "The actual question text goes here",
-  question_type: "multiple_choice", // Always use "multiple_choice" for this task
-  options: ["Option 1", "Option 2", "Option 3", "Option 4"], // Array of answer options
-  correct_option: 0, // Index of correct answer (0-based)
-  correct_explanation: "Explanation of why this answer is correct"
-}
-```
-
-## Example Question
-
-Here's an example of a properly formatted question:
-
-```javascript
-{
-  question_text: "What is one key benefit of 'diffuse mode' thinking according to Week 1's learning materials?",
-  question_type: "multiple_choice",
-  options: [
-    "It helps consolidate learning during breaks",
-    "It makes you code faster",
-    "It helps you memorize syntax",
-    "It improves typing speed"
-  ],
-  correct_option: 0,
-  correct_explanation: "Diffuse mode thinking, which happens during breaks and relaxed states, helps your brain process and consolidate what you've learned. This is why taking breaks is so important for learning."
-}
-```
-
 ## Getting Started
 
-1. Your `questions.js` file already has this starter code:
-
-```javascript
-const questions = [
-  // Add your questions here!
-];
-
-module.exports = questions;
-```
-
+1. Your `questions.js` file already has this starter code in it
 2. Add your questions as objects in the array, following the schema above
 3. Make sure your questions:
-   - Are about Week 1 content (learning strategies, mindset, etc.)
+   - Are about Week 1 content
    - Have 4 options each
    - Have clear explanations for the correct answers
    - Follow the exact schema format
